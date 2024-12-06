@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardim dos Sabores</title>
+    <link rel="shortcut icon" type="imagex/png" href="https://st.depositphotos.com/1007566/58830/v/450/depositphotos_588305854-stock-illustration-red-chili-pepper-vegetable-icon.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="img/lg-sf.png" alt="Logo" /></a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="artigo.html">Notícias</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="perfil.html"><img src="img/profile_icon sf.png" alt="Perfil" /></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aoCrn6Q1jkIY0HFVhwVKsOXM4GZron4cCg&s" alt="Canapé">
+        </div>
+        <h1>Canapé</h1>
+        <div class="recipe-info">
+            <p><strong>Tempo de preparo:</strong> 30 minutos</p>
+            <p><strong>Rendimento:</strong> 20 unidades</p>
+        </div>
+        
+        <div class="ingredients">
+            <h2>Ingredientes:</h2>
+            <ul>
+                <li>1 baguete cortada em fatias finas</li>
+                <li>100g de cream cheese</li>
+                <li>100g de patê de azeitona</li>
+                <li>100g de salmão defumado</li>
+                <li>1 pepino fatiado</li>
+                <li>1 tomate cereja cortado ao meio</li>
+                <li>2 colheres de sopa de cebolinha picada</li>
+                <li>1 colher de sopa de azeite de oliva</li>
+                <li>Sal e pimenta a gosto</li>
+                <li>Salsinha para decorar</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h2>Modo de Preparo:</h2>
+            <ol>
+                <li>Pré-aqueça o forno a 180°C. Coloque as fatias de baguete em uma assadeira e leve ao forno por 5-7 minutos, ou até que estejam levemente douradas.</li>
+                <li>Para o recheio de cream cheese, misture o cream cheese com a cebolinha picada, sal e pimenta a gosto.</li>
+                <li>Espalhe uma camada do cream cheese em cada fatia de baguete.</li>
+                <li>Adicione uma pequena porção de patê de azeitona sobre o cream cheese em algumas fatias.</li>
+                <li>Para o canapé de salmão, coloque uma fatia de salmão defumado sobre o cream cheese e decore com uma fatia de pepino.</li>
+                <li>Para os canapés de tomate, coloque uma metade de tomate cereja sobre o cream cheese e regue com um fio de azeite de oliva.</li>
+                <li>Decore com salsinha e sirva imediatamente.</li>
+            </ol>
+        </div>
+        <div class="button-container">
+            <button onclick="addToFavorites()">Adicionar aos Favoritos</button>
+        </div>
+        <div class="comments-section">
+            <h2>Comentários:</h2>
+            <form action="#" method="post">
+                <textarea name="comment" placeholder="Deixe seu comentário..."></textarea>
+                <button type="submit">Enviar Comentário</button>
+            </form>
+            <div class="comment">
+                <p><strong>Laura:</strong> Esses canapés são perfeitos para uma festa! Fiquei impressionada com a apresentação.</p>
+            </div>
+            <div class="comment">
+                <p><strong>Gabriel:</strong> Muito saborosos e fáceis de fazer. Os convidados adoraram!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function addToFavorites() {
+            alert('Receita adicionada aos favoritos!');
+        }
+    </script>
+
+<footer>
+    <div class="footer-content">
+        <div class="logo-section">
+            <img src="img/lg-sf.png" alt="Logo do Site" class="logo">
+        </div>
+        <div class="contact-info">
+            <p>Telefone: (11) 93721-7483</p>
+            <p>Email: jardimdossabores@contato.com</p>
+        </div>
+        <div class="social-links">
+            <a href="https://instagram.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Facebook Logo"/>
+            </a>
+            <a href="https://facebook.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.freepik.com/256/12942/12942327.png?semt=ais_hybrid" alt="Instagram Logo"/>
+            </a>
+            <a href="https://whatsapp.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/254/254409.png" alt="Twitter Logo"/>
+            </a>
+        </div>
+    </div>
+    <p class="copyright">&copy; 2024 Todos os direitos reservados. Jardim dos Sabores.</p>
+</footer>
+    
+</body>
+</html>

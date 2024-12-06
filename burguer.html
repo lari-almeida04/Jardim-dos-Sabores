@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardim dos Sabores</title>
+    <link rel="shortcut icon" type="imagex/png" href="https://st.depositphotos.com/1007566/58830/v/450/depositphotos_588305854-stock-illustration-red-chili-pepper-vegetable-icon.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="img/lg-sf.png" alt="Logo" /></a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="artigo.html">Notícias</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="perfil.html"><img src="img/profile_icon sf.png" alt="Perfil" /></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="https://cdn.shopify.com/s/files/1/0127/3711/8265/files/shutterstock_267497981_grande.jpg?v=1570041708" alt="Burger Vegetariano">
+        </div>
+        <h1>Burger Vegetariano</h1>
+        <div class="recipe-info">
+            <p><strong>Tempo de preparo:</strong> 40 minutos</p>
+            <p><strong>Rendimento:</strong> 4 porções</p>
+        </div>
+        
+        <div class="ingredients">
+            <h2>Ingredientes:</h2>
+            <ul>
+                <li>Para os hambúrgueres:</li>
+                <li>1 xícara de grão-de-bico cozido e escorrido</li>
+                <li>1/2 xícara de cenoura ralada</li>
+                <li>1/2 xícara de abobrinha ralada</li>
+                <li>1/2 cebola picada</li>
+                <li>2 dentes de alho picados</li>
+                <li>1/2 xícara de aveia em flocos</li>
+                <li>1/4 xícara de farinha de trigo</li>
+                <li>1 colher de chá de cominho</li>
+                <li>1 colher de chá de páprica</li>
+                <li>Sal e pimenta a gosto</li>
+                <li>1 ovo (opcional para dar liga)</li>
+                
+                <li>Para a montagem:</li>
+                <li>4 pães de hambúrguer</li>
+                <li>4 folhas de alface</li>
+                <li>1 tomate fatiado</li>
+                <li>Fatias de queijo (opcional)</li>
+                <li>Ketchup e mostarda a gosto</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h2>Modo de Preparo:</h2>
+            <ol>
+                <li>Em um processador de alimentos, coloque o grão-de-bico, cenoura, abobrinha, cebola e alho. Pulse até obter uma mistura homogênea, mas ainda com algumas texturas.</li>
+                <li>Transfira a mistura para uma tigela e adicione a aveia, farinha de trigo, cominho, páprica, sal e pimenta. Misture bem.</li>
+                <li>Se a mistura estiver muito seca, adicione um ovo batido para dar liga. Se estiver muito úmida, adicione um pouco mais de farinha.</li>
+                <li>Modele a mistura em 4 hambúrgueres e aqueça uma frigideira antiaderente com um pouco de óleo em fogo médio.</li>
+                <li>Frite os hambúrgueres por cerca de 4-5 minutos de cada lado, até que estejam dourados e bem cozidos.</li>
+                <li>Toste os pães de hambúrguer na mesma frigideira, se desejar.</li>
+                <li>Monte os burgers: coloque uma folha de alface em cada pão, adicione o hambúrguer, uma fatia de tomate e, se quiser, uma fatia de queijo.</li>
+                <li>Finalize com ketchup e mostarda a gosto e cubra com a parte superior do pão.</li>
+                <li>Sirva quente e aproveite!</li>
+            </ol>
+        </div>
+        <div class="button-container">
+            <button onclick="addToFavorites()">Adicionar aos Favoritos</button>
+        </div>
+        <div class="comments-section">
+            <h2>Comentários:</h2>
+            <form action="#" method="post">
+                <textarea name="comment" placeholder="Deixe seu comentário..."></textarea>
+                <button type="submit">Enviar Comentário</button>
+            </form>
+            <div class="comment">
+                <p><strong>Mariana:</strong> Excelente opção para quem busca uma refeição saudável e saborosa. O sabor é incrível!</p>
+            </div>
+            <div class="comment">
+                <p><strong>João:</strong> Fiz para a família e todos adoraram! Vou definitivamente fazer de novo.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function addToFavorites() {
+            alert('Receita adicionada aos favoritos!');
+        }
+    </script>
+
+<footer>
+    <div class="footer-content">
+        <div class="logo-section">
+            <img src="img/lg-sf.png" alt="Logo do Site" class="logo">
+        </div>
+        <div class="contact-info">
+            <p>Telefone: (11) 93721-7483</p>
+            <p>Email: jardimdossabores@contato.com</p>
+        </div>
+        <div class="social-links">
+            <a href="https://instagram.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Facebook Logo"/>
+            </a>
+            <a href="https://facebook.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.freepik.com/256/12942/12942327.png?semt=ais_hybrid" alt="Instagram Logo"/>
+            </a>
+            <a href="https://whatsapp.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/254/254409.png" alt="Twitter Logo"/>
+            </a>
+        </div>
+    </div>
+    <p class="copyright">&copy; 2024 Todos os direitos reservados. Jardim dos Sabores.</p>
+</footer>
+
+</body>
+</html>

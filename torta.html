@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardim dos Sabores</title>
+    <link rel="shortcut icon" type="imagex/png" href="https://st.depositphotos.com/1007566/58830/v/450/depositphotos_588305854-stock-illustration-red-chili-pepper-vegetable-icon.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="img/lg-sf.png" alt="Logo" /></a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="artigo.html">Notícias</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="perfil.html"><img src="img/profile_icon sf.png" alt="Perfil" /></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="https://www.sabornamesa.com.br/media/k2/items/cache/2d8edb28c6792cb00bf850749758d146_XL.jpg" alt="Torta de Maçã Caramelizada">
+        </div>
+        <h1>Torta de Maçã Caramelizada</h1>
+        <div class="recipe-info">
+            <p><strong>Tempo de preparo:</strong> 1 hora e 30 minutos</p>
+            <p><strong>Rendimento:</strong> 8 porções</p>
+        </div>
+        
+        <div class="ingredients">
+            <h2>Ingredientes:</h2>
+            <ul>
+                <li>Para a massa:</li>
+                <li>200g de biscoito tipo maisena</li>
+                <li>100g de manteiga derretida</li>
+                
+                <li>Para o recheio:</li>
+                <li>5 maçãs médias descascadas e fatiadas</li>
+                <li>1/2 xícara de açúcar</li>
+                <li>1/4 xícara de manteiga</li>
+                <li>1/4 xícara de água</li>
+                <li>1 colher de chá de canela em pó</li>
+                <li>1/4 colher de chá de noz-moscada</li>
+                <li>1 colher de sopa de amido de milho</li>
+                
+                <li>Para a cobertura:</li>
+                <li>1/2 xícara de açúcar</li>
+                <li>1/4 xícara de água</li>
+                <li>1/4 xícara de creme de leite</li>
+            </ul>
+        </div>
+        <div class="instructions">
+            <h2>Modo de Preparo:</h2>
+            <ol>
+                <li>Preaqueça o forno a 180°C.</li>
+                <li>Para preparar a massa, triture os biscoitos em um processador até virarem uma farofa. Misture com a manteiga derretida até obter uma massa homogênea.</li>
+                <li>Pressione a mistura de biscoitos no fundo e nas laterais de uma forma de torta, formando a base. Asse no forno por 10 minutos e reserve.</li>
+                <li>Para o recheio, em uma panela, derreta a manteiga e adicione as maçãs fatiadas. Cozinhe em fogo médio até que as maçãs comecem a amolecer, cerca de 5 minutos.</li>
+                <li>Adicione o açúcar, a água, a canela e a noz-moscada. Cozinhe por mais 5 minutos.</li>
+                <li>Dissolva o amido de milho em um pouco de água e adicione à mistura de maçã. Cozinhe até que o recheio engrosse.</li>
+                <li>Despeje o recheio sobre a base de biscoito já assada e espalhe uniformemente.</li>
+                <li>Para a cobertura, em uma panela, aqueça o açúcar e a água até formar um caramelo dourado. Retire do fogo e adicione o creme de leite, misturando bem até obter um molho liso.</li>
+                <li>Despeje a cobertura de caramelo sobre a torta.</li>
+                <li>Leve a torta ao forno por mais 20 minutos.</li>
+                <li>Deixe esfriar antes de servir.</li>
+            </ol>
+        </div>
+        <div class="button-container">
+            <button onclick="addToFavorites()">Adicionar aos Favoritos</button>
+        </div>
+        <div class="comments-section">
+            <h2>Comentários:</h2>
+            <form action="#" method="post">
+                <textarea name="comment" placeholder="Deixe seu comentário..."></textarea>
+                <button type="submit">Enviar Comentário</button>
+            </form>
+            <div class="comment">
+                <p><strong>Fernanda:</strong> Que delícia! A torta ficou maravilhosa e o caramelo dá um toque especial.</p>
+            </div>
+            <div class="comment">
+                <p><strong>Eduardo:</strong> Receita perfeita para uma sobremesa de domingo. Todos amaram!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function addToFavorites() {
+            alert('Receita adicionada aos favoritos!');
+        }
+    </script>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="logo-section">
+                <img src="img/lg-sf.png" alt="Logo do Site" class="logo">
+            </div>
+            <div class="contact-info">
+                <p>Telefone: (11) 93721-7483</p>
+                <p>Email: jardimdossabores@contato.com</p>
+            </div>
+            <div class="social-links">
+                <a href="https://instagram.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Facebook Logo"/>
+                </a>
+                <a href="https://facebook.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn-icons-png.freepik.com/256/12942/12942327.png?semt=ais_hybrid" alt="Instagram Logo"/>
+                </a>
+                <a href="https://whatsapp.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn-icons-png.flaticon.com/512/254/254409.png" alt="Twitter Logo"/>
+                </a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 Todos os direitos reservados. Jardim dos Sabores.</p>
+    </footer>
+
+</body>
+</html>
